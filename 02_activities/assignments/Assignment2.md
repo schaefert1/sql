@@ -54,7 +54,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 tables will override the data and create a new record, whereas Type 2 will preserve teh original data for historical tracking and create a new entry into the table.
 ```
 
 ***
